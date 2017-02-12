@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/chart/ChartWebPart.js",
+      "manifest": "./src/webparts/chart/ChartWebPart.manifest.json",
+      "outputPath": "./dist/chart.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "chartStrings": "webparts/chart/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "ad1c0a1b-0afb-4ca5-a66f-676991f0eeca",
+  "alias": "ChartWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "ad1c0a1b-0afb-4ca5-a66f-676991f0eeca",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Chart" },
+    "description": { "default": "Amazing chart" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "chart": "line",
+      "dataset": "65,59,80,81,56,55,40",
+      "labels": "January,February,March,April,May,June,July"
+    }
+  }]
+}
