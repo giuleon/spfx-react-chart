@@ -26,3 +26,4 @@ gulp build - TODO
 gulp deploy - TODO
 # Spfx-Reactjs-Chart
 
+![alt text](https://github.com/giuleon/spfx-react-chart/blob/master/spfx-react-chart.gif "Demo")
