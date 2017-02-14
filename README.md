@@ -26,6 +26,6 @@ gulp build - TODO
 gulp deploy - TODO
 # Spfx-Reactjs-Chart
 
-This solution has been developed across SharePoint Frameworks for SharePoint Online.
+This solution has been developed across SharePoint Framework for SharePoint Online.
 
 ![alt text](https://github.com/giuleon/spfx-react-chart/blob/master/spfx-react-chart.gif "Demo")
