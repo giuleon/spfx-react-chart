@@ -98,8 +98,15 @@ export default class Chart extends React.Component<IChartProps, IChartData> {
             label: 'User\'s visits',
             fill: false,
             lineTension: 0.1,
-            backgroundColor: ['rgba(75,192,192,0.4)',
-              'rgb(255, 99, 132)'],
+            backgroundColor: [
+	              'rgb(255, 99, 132)',
+	              'rgb(255, 159, 64)',
+	              'rgb(255, 205, 86)',
+	              'rgb(75, 192, 192)',
+	              'rgb(54, 162, 235)',
+	              'rgb(153, 102, 255)',
+	              'rgb(231,233,237)'
+              ],
             borderColor: 'rgba(75,192,192,1)',
             borderCapStyle: 'butt',
             borderDashOffset: 0.0,
