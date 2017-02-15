@@ -4,7 +4,8 @@ import { Version } from '@microsoft/sp-core-library';
 import {
   BaseClientSideWebPart,
   IPropertyPaneConfiguration,
-  PropertyPaneTextField
+  PropertyPaneTextField,
+  PropertyPaneDropdown
 } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'chartStrings';
@@ -42,8 +43,17 @@ export default class ChartWebPart extends BaseClientSideWebPart<IChartWebPartPro
             {
               groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('chart', {
-                  label: strings.ChartFieldLabel
+                PropertyPaneDropdown('chart', {
+                  label: strings.ChartFieldLabel,
+                  options: [
+                    { key: 'Line', text: 'Line' },
+                    { key: 'Bar', text: 'Bar' },
+                    { key: 'Doughnut', text: 'Doughnut' },
+                    { key: 'Horizontalbar', text: 'Horizontalbar' },
+                    { key: 'Pie', text: 'Pie' },
+                    { key: 'Polar', text: 'Polar' },
+                    { key: 'Radar', text: 'Radar' }
+                  ]
                 }),
                 PropertyPaneTextField('dataset', {
                   label: strings.DatasetFieldLabel
@@ -59,6 +69,6 @@ export default class ChartWebPart extends BaseClientSideWebPart<IChartWebPartPro
     };
   }
   protected get disableReactivePropertyChanges(): boolean {
-    return true;
+    return false;
   }
 }
