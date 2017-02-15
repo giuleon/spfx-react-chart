@@ -1,8 +1,8 @@
-## spfx-reactjs-chart
+# spfx-reactjs-chart
 
 This is where you include your web part docs.
 
-### Building the code
+## Building the code
 
 ```bash
 git clone the repo
@@ -25,7 +25,7 @@ gulp watch - TODO
 gulp build - TODO
 gulp deploy - TODO
 
-# Spfx-Reactjs-Chart
+## Spfx-Reactjs-Chart
 
 The SharePoint Framework is in release candidate phase now, then I decided to give also my little contribution, in this sense I developed a SPFX client side web part that renders various kind of charts (radar, polar, line, pie, horizontalbar, doughnut).
 It is possible configure the chart with the classic right pane of Office 365 and this permits to set the type of chart, data to display and the labels.
