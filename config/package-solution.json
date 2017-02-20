@@ -2,7 +2,7 @@
   "solution": {
     "name": "spfx-reactjs-chart-client-side-solution",
     "id": "8b825a33-fe35-4d6a-93d1-d40bf5d41d05",
-    "version": "1.0.0.0"
+    "version": "1.0.0.1"
   },
   "paths": {
     "zippedPackage": "solution/spfx-reactjs-chart.sppkg"
