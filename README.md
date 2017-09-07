@@ -1,6 +1,6 @@
 # SharePoint Framework Reactjs Chart
 
-This is where you include your web part docs.
+SPFx client side web part that renders various kind of charts (radar, polar, line, pie, horizontalbar, doughnut).
 
 ## Building the code
 
@@ -10,9 +10,9 @@ npm i
 npm i -g gulp
 gulp serve
 ```
-## Spfx-Reactjs-Chart
+## SPFx-Reactjs-Chart
 
-The SharePoint Framework is in release candidate phase now, then I decided to give also my little contribution, in this sense I developed a SPFX client side web part that renders various kind of charts (radar, polar, line, pie, horizontalbar, doughnut).
+The SharePoint Framework is in release candidate phase now, then I decided to give also my little contribution, in this sense I developed a SPFx client side web part that renders various kind of charts (radar, polar, line, pie, horizontalbar, doughnut).
 It is possible configure the chart with the classic right pane of Office 365 and this permits to set the type of chart, data to display and the labels.
 Regarding the technical aspect, I used the classic tool chain of SharePoint Framework, ReactJS like client side framework and chart.js to design the graphics.
 
