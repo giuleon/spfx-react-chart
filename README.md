@@ -6,8 +6,7 @@ SPFx client side web part that renders various kind of charts (radar, polar, lin
 
 ```bash
 git clone the repo
-npm i
-npm i -g gulp
+npm install
 gulp serve
 ```
 ## SPFx-Reactjs-Chart
@@ -23,3 +22,24 @@ I published my solution on my Office 365 tenant and I followed this article from
 Just in case you decide to deploy the solution on your SharePoint online please take a look to this article.
 
 [Here the article on my blog](http://www.delucagiuliano.com/sharepoint-framework-react-chart-web-part)
+
+## Used SharePoint Framework Version
+![drop](https://img.shields.io/badge/version-GA-green.svg)
+
+## Applies to
+
+* [SharePoint Framework Release GA](https://blogs.office.com/2017/02/23/sharepoint-framework-reaches-general-availability-build-and-deploy-engaging-web-parts-today/)
+* [Office 365 tenant](https://dev.office.com/sharepoint/docs/spfx/set-up-your-development-environment)
+
+## Solution
+
+Solution|Author(s)
+--------|---------
+spfx-react-chart | Giuliano De Luca ([@giuleon](http://www.twitter.com/giuleon), [delucagiuliano.com](techmikael.com))
+
+## Version history
+
+Version|Date|Comments
+-------|----|--------
+1.0|February 15th, 2017|Initial release
+1.0.1|September 14th, 2017|Updated SPFx version
