@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { css } from 'office-ui-fabric-react';
 import styles from './Chart.module.scss';
 import { IChartProps } from './IChartProps';
 //import * as Chartjs from 'chart.js';

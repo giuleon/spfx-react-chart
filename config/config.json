@@ -1,13 +1,18 @@
 {
-  "entries": [
-    {
-      "entry": "./lib/webparts/chart/ChartWebPart.js",
-      "manifest": "./src/webparts/chart/ChartWebPart.manifest.json",
-      "outputPath": "./dist/chart.bundle.js"
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "chart-bundle": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/chart/ChartWebPart.js",
+          "manifest": "./src/webparts/chart/ChartWebPart.manifest.json"
+        }
+      ]
     }
-  ],
-  "externals": {},
+  },
   "localizedResources": {
-    "chartStrings": "webparts/chart/loc/{locale}.js"
-  }
+    "chartStrings": "lib/webparts/chart/loc/{locale}.js"
+  },
+  "externals": {}
 }
